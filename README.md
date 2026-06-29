@@ -62,9 +62,7 @@ flowchart LR
 
 ### 界面预览
 
-> 截图占位：在这里插入项目首页总览图\
-> 建议文件路径：`docs/images/home-overview.png`\
-> 建议展示内容：顶部说明区、左右输入面板、字段筛选、搜索栏、结果区、右侧模块导航
+![项目首页总览](docs/images/home-overview.png)
 
 ## 功能特性
 
@@ -222,9 +220,7 @@ flowchart TD
 }
 ```
 
-> 截图占位：插入 JSON 对比结果截图\
-> 建议文件路径：`docs/images/usage-json-compare.png`\
-> 建议展示内容：差异高亮、类型变化、统计卡片
+![JSON 对比结果](docs/images/usage-json-compare.png)
 
 ### 场景二：cURL 与 JSON 混合对比
 
@@ -252,9 +248,7 @@ curl 'https://example.com/api/search?scene=test' \
 }
 ```
 
-> 截图占位：插入 cURL 解析摘要截图\
-> 建议文件路径：`docs/images/usage-curl-parse.png`\
-> 建议展示内容：请求来源、Method、URL、Header/Query 统计、提取的 JSON Body
+![cURL 解析摘要](docs/images/usage-curl-parse.png)
 
 ### 场景三：仅查看指定字段
 
@@ -284,9 +278,7 @@ data_dict.spc_upgrade_mode
 payload.page
 ```
 
-> 截图占位：插入搜索栏吸附效果截图\
-> 建议文件路径：`docs/images/usage-sticky-search.png`\
-> 建议展示内容：滚动到结果区后搜索栏吸附在顶部、匹配计数与跳转按钮
+![搜索栏吸附效果](docs/images/usage-sticky-search.png)
 
 ### 场景五：历史记录与面板命名
 
@@ -294,9 +286,7 @@ payload.page
 2. 执行对比后，历史记录会保存输入、结果摘要和自定义名称
 3. 点击“查看历史”可恢复某次对比内容
 
-> 截图占位：插入历史记录侧栏截图\
-> 建议文件路径：`docs/images/usage-history-drawer.png`\
-> 建议展示内容：历史卡片、左右面板自定义名称、恢复按钮
+![历史记录抽屉](docs/images/usage-history-drawer.png)
 
 ## 项目结构
 
@@ -596,4 +586,3 @@ test: add regression cases for curl body extraction
 3. 搜索栏吸附效果截图
 4. 历史记录抽屉截图
 5. 一段 30 秒以内的操作录屏 GIF
-
